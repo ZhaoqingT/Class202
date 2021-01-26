@@ -1,5 +1,33 @@
 # Class202 
-Contains the Projects for CM202.
-Project1: WaveFunctionCollaps
+Contain the Projects for CM202.
+
+
+## Project1: WaveFunctionCollaps 
+
+### Description:
+
 This project is a python version game to generate map using the tile in ./Images folder
+
+Each of the image in the folder and their rotation of 90 degree, 180 degree and 270 degree will be shown in the start page
+![Screen Shot 2021-01-25 at 6 51 37 PM](https://user-images.githubusercontent.com/24282146/105781803-3284a980-5f41-11eb-83b5-74014eb2e576.png)
+
+Users can select which images they want
+![Screen Shot 2021-01-25 at 6 51 14 PM](https://user-images.githubusercontent.com/24282146/105781814-387a8a80-5f41-11eb-81d6-93fb2f0db40d.png)
+
+Then users can define their constraints by selecting the available adjacent image on particalar directions.
+![Screen Shot 2021-01-25 at 6 54 48 PM](https://user-images.githubusercontent.com/24282146/105781822-3adce480-5f41-11eb-9a05-3933601f169a.png)
+
+After constructing constraints, the maps are generated using WaveFunctionCollaps algorithm
+![Screen Shot 2021-01-25 at 7 08 37 PM](https://user-images.githubusercontent.com/24282146/105781824-3ca6a800-5f41-11eb-9ce7-46d78b826f4c.png)
+
+Users can select the maps to save in the ./ResultMaps/ folder or regenerate the maps.
+![Screen Shot 2021-01-25 at 7 08 47 PM](https://user-images.githubusercontent.com/24282146/105781829-3dd7d500-5f41-11eb-969c-36c66702faf4.png)
+
+### How to use:
+
+1. Use *git clone https://github.com/ZhaoqingT/Class202.git*
+2. Use *cd Class202* , *cd Project1* to go into the Class202/Project1/ directory,
+3. Use *conda env create -f environment.yml* to create the environment
+4. Use *source activate CM202* to enter the environment (Or *conda activate CM202*)
+5. Use *python3 app.py* to run the application
 
