@@ -25,11 +25,12 @@ Users can select the maps to save in the ./ResultMaps/ folder or regenerate the 
 
 ### How to use:
 
-1. Use *git clone https://github.com/ZhaoqingT/Class202.git*
-2. Use *cd Class202* , *cd Project1* to go into the Class202/Project1/ directory,
-3. Use *conda env create -f environment.yml* to create the environment
-4. Use *source activate CM202* to enter the environment (Or *conda activate CM202*)
-5. Use *python3 app.py* to run the application
+1. Use __*git clone https://github.com/ZhaoqingT/Class202.git*__
+2. Use __*cd Class202*__ , __*cd Project1*__ to go into the Class202/Project1/ directory,
+3. Use __*conda env create -f environment.yml*__ to create the environment
+4. Use __*source activate CM202*__ to enter the environment (Or *conda activate CM202*)
+5. Use __*python3 -m pip install -U pygame --user*__ to install pygame
+6. Use __*python3 app.py*__ to run the application
 
 ### Alert!
 
