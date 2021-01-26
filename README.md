@@ -31,3 +31,11 @@ Users can select the maps to save in the ./ResultMaps/ folder or regenerate the 
 4. Use *source activate CM202* to enter the environment (Or *conda activate CM202*)
 5. Use *python3 app.py* to run the application
 
+### Alert!
+
+1. WaveFunctionCollaps does not guarantee to generate a result. The image generated is the last iteration if there is no tile to find next.
+2. I know constructing constraints might be exhausting but it might be really hard to generate result if you choose A on the bottom of B but forget to choose B on  the top of A.
+3. Will have more features in the future. Like
+   - ML part to filter the map to generate more prefered map based on previous selections
+   - Auto selection part so that users can have less works constructing the constraints.
+   - Improve the algorithm to make it generate valid results more probably.
