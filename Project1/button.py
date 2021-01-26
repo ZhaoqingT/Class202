@@ -8,7 +8,7 @@ def text_objects(text, font):
 
 class Button:
     def __init__(self, rect, text, game):
-        self.color = (255,0,0)
+        self.color = (173, 216, 230)
         self.rect = pygame.Rect(rect)
         self.centerx = self.rect.centerx
         self.centery = self.rect.centery

@@ -43,7 +43,7 @@ class MapGenerator:
         for image in self.images:
             self.screen.blit(image['tile'], image['rect'])
             if image['selected'] == True:
-                pygame.draw.rect(self.screen, Color('blue'), image['rect'], 2)
+                pygame.draw.rect(self.screen, Color('red'), image['rect'], 5)
 
     def get_event(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:

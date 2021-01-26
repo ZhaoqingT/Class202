@@ -21,17 +21,23 @@ class ConstrainGenerator:
         self.finish = False
         self.selectedImage = []
         self.constraints = []
-        self.button = Button((600,550,105,25), 'Next', self.game)
         # self.targetRec = pygame.Rect((350,250,100,100))
 
     def init(self):
+        self.image = []
+        self.topimages = []
+        self.botimages = []
+        self.leftimages = []
+        self.rightimages = []
+        self.lastTarget = False
+        self.button = Button((600,550,105,25), 'Next', self.game)
         self.images = self.getImages(self.game.imageSelector.images)
         self.topimages = self.buildTopImages()
         self.botimages = self.buildBotImages()
         self.leftimages = self.buildLeftImages()
         self.rightimages = self.buildRightImages()
         self.setTarget()
-        self.lastTarget = False
+        
 
     def getImages(self, images):
         res = []
@@ -169,19 +175,19 @@ class ConstrainGenerator:
         for image in self.topimages:
             self.screen.blit(image['tile'], image['rect'])
             if image['selected'] == True:
-                pygame.draw.rect(self.screen, Color('blue'), image['rect'], 2)
+                pygame.draw.rect(self.screen, Color('red'), image['rect'], 2)
         for image in self.botimages:
             self.screen.blit(image['tile'], image['rect'])
             if image['selected'] == True:
-                pygame.draw.rect(self.screen, Color('blue'), image['rect'], 2)
+                pygame.draw.rect(self.screen, Color('red'), image['rect'], 2)
         for image in self.leftimages:
             self.screen.blit(image['tile'], image['rect'])
             if image['selected'] == True:
-                pygame.draw.rect(self.screen, Color('blue'), image['rect'], 2)
+                pygame.draw.rect(self.screen, Color('red'), image['rect'], 2)
         for image in self.rightimages:
             self.screen.blit(image['tile'], image['rect'])
             if image['selected'] == True:
-                pygame.draw.rect(self.screen, Color('blue'), image['rect'], 2)
+                pygame.draw.rect(self.screen, Color('red'), image['rect'], 2)
 
     def draw(self):
         self.button.draw()
