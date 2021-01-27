@@ -2,6 +2,7 @@
 __pycache__/
 Reference/
 .vscode/
+Other Material/
 Maps/
 *.py[cod]
 *$py.class
