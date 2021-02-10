@@ -6,6 +6,9 @@ Maps/
 *.py[cod]
 *$py.class
 .DS_Store
+myfile.txt
+
+
 
 # C extensions
 *.so
