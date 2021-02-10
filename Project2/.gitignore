@@ -3,12 +3,10 @@ __pycache__/
 Reference/
 .vscode/
 Maps/
+data/
 *.py[cod]
 *$py.class
 .DS_Store
-myfile.txt
-
-
 
 # C extensions
 *.so
