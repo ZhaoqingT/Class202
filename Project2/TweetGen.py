@@ -84,4 +84,5 @@ if __name__ == '__main__':
     # res = textgen.generate(return_as_list=True)
 
     # generateText()
-    generateTweets()
+    for i in range(10):
+        generateTweets()
