@@ -40,3 +40,19 @@ Users can select the maps to save in the ./ResultMaps/ folder or regenerate the 
    - ML part to filter the map to generate more prefered map based on previous selections
    - Auto selection part so that users can have less works constructing the constraints.
    - Improve the algorithm to make it generate valid results more probably.
+   
+   
+
+
+## Project2: Neural Network 
+
+### Description:
+This is a text generator using https://github.com/minimaxir/textgenrnn. I have trained the model with tweet data so that the model is able to generate tweet-style text. The data used to train the model is from https://dataverse.harvard.edu/dataset.xhtml?id=3047332, which is top 20 most followed user on twitter social platform. And I only used the content column to train the model. 
+
+
+### How to use:
+1. Use __*git clone https://github.com/ZhaoqingT/Class202.git*__
+2. Use __*cd Class202*__ , __*cd Project2*__ to go into the Class202/Project1/ directory,
+3. Use __*pip install textgenrnn*__ to install textgenrnn
+4. Use __*python TweetGen.py*__ to generate tweet-style text
+5. Use __*python NormalTextGen.py*__ to generate normal text
